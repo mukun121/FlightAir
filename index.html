@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkyFly - Flight Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>SkyFly</h1>
+      <nav>
+        <ul>
+          <li><a href="#search">Book</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Book Your Flight with Ease</h2>
+      <p>Best deals. Anywhere. Anytime.</p>
+    </div>
+  </section>
+
+  <section id="search" class="booking">
+    <div class="container">
+      <h2>Search Flights</h2>
+      <form id="flightForm">
+        <input type="text" id="from" placeholder="From (e.g., New York)" required>
+        <input type="text" id="to" placeholder="To (e.g., London)" required>
+        <input type="date" id="departure" required>
+        <input type="number" id="passengers" placeholder="Passengers" min="1" required>
+        <button type="submit">Search Flights</button>
+      </form>
+      <div id="results"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About SkyFly</h2>
+      <p>SkyFly is a user-friendly flight booking platform offering seamless ticket reservations across the globe. With trusted airline partners and competitive pricing, your next adventure is just a few clicks away.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: support@skyfly.com</p>
+      <p>Phone: +1 234 567 890</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkyFly. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
